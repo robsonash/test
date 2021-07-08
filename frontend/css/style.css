@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+}
+
+.botoes {
+    padding: 15px;
+}
+
+.botao {
+    color: white;
+    box-shadow: 0px 1px 2px 0px;
+    border-radius: 10%;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.editar {
+    background: #a17bfd;
+    margin-right: 10px;
+}
+
+.excluir {
+    background: #ff5151;
+}
+
+.adicionar {
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background: #56bf56;
+    box-shadow: 0px 1px 2px 0px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+ul {
+    width: 50%;
+    padding: 30px;
+    list-style: none;
+}
+
+li {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    margin-right: 10px;
+}
+
+p {
+    font-weight: bold;
+    color: #d24f8c;
+    text-transform: capitalize;
+}

@@ -59,7 +59,7 @@ async function pegarFrutas() {
 }
 pegarFrutas()
 
-adicionar.addEventListener('click', res => {
+adicionar.addEventListener('click', () => {
     const options = {
         method: 'POST',
         body: JSON.stringify({
